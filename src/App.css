@@ -1,0 +1,104 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.login-register {
+  float: right;
+  padding: 10px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+}
+
+.search-section input {
+  margin: 0 5px;
+}
+
+
+
+.popular-guides {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.guide {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  background-color: #0000ff;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.plan-trip-button, .explore-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #0000ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.App-footer {
+  background-color: #282c34;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+
+.toggle-button {
+  background-color: #ccc; /* Light grey background */
+  border: none; /* No border */
+  color: #333; /* Dark text */
+  padding: 10px 20px; /* Padding inside the button */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* No underline on text */
+  display: inline-block; /* Allow the button to sit next to other inline elements */
+  font-size: 16px; /* Set the font size */
+  margin: 4px 2px; /* Margin around the button */
+  cursor: pointer; /* Change mouse to pointer when hovering over the button */
+  border-radius: 20px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth background color change on hover */
+}
+
+.toggle-button:hover {
+  background-color: #ddd; /* Darker grey background on hover */
+}
+
+
+.role-selection {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.role-option {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.role-option.selected {
+  border-color: green;
+  background-color: #e8f5e9;
+}
